@@ -1,0 +1,39 @@
+{
+  "name": "chu-brest-eds-skills",
+  "version": "0.1.0",
+  "description": "Agent skills for scientific studies on a hospital data warehouse (EDS): question grilling, protocol, phenotypes, feasibility, analysis plan, Python analysis, IMRaD report, methodological review.",
+  "author": {
+    "name": "CHU de Brest"
+  },
+  "repository": "https://github.com/CHU-Brest/skills",
+  "license": "MIT",
+  "keywords": [
+    "eds",
+    "entrepot-de-donnees-de-sante",
+    "epidemiology",
+    "strobe",
+    "record",
+    "target-trial",
+    "phenotyping",
+    "pmsi"
+  ],
+  "skills": [
+    "./skills/study/ask-eds",
+    "./skills/study/setup-eds-skills",
+    "./skills/study/grill-question",
+    "./skills/study/study-design",
+    "./skills/study/define-phenotype",
+    "./skills/study/feasibility",
+    "./skills/study/analysis-plan",
+    "./skills/study/analyze",
+    "./skills/study/report",
+    "./skills/study/review-study",
+    "./skills/reference/grilling",
+    "./skills/reference/study-folder",
+    "./skills/reference/epi-designs",
+    "./skills/reference/epi-biases",
+    "./skills/reference/reporting-guidelines",
+    "./skills/reference/terminologies",
+    "./skills/reference/regulatory-fr"
+  ]
+}

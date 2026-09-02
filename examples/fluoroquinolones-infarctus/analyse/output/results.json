@@ -1,0 +1,43 @@
+{
+  "n": {
+    "FQ": 3432,
+    "BL": 8568
+  },
+  "evenements_idm": {
+    "FQ": 87,
+    "BL": 91
+  },
+  "deces_sans_idm": {
+    "FQ": 130,
+    "BL": 187
+  },
+  "personne_jours": {
+    "FQ": 195388,
+    "BL": 497942
+  },
+  "hr_brut": "2.43 (IC 95 % 1.81 à 3.27)",
+  "hr_iptw": "1.75 (IC 95 % 1.28 à 2.37)",
+  "hr_iptw_valeur": 1.7462041036824414,
+  "p_schoenfeld_iptw": 0.03431965808427467,
+  "risque_60j": {
+    "FQ": 0.021544392787711808,
+    "BL": 0.012502593410521623
+  },
+  "difference_risque_60j": 0.009041799377190185,
+  "poids_tronques_pct": 2.0,
+  "poids_min_max": [
+    0.4911936212836879,
+    2.029527901187267
+  ],
+  "covariables_desequilibrees_apres_iptw": 0,
+  "ps_overlap": {
+    "FQ_min_max": [
+      0.07722013414196104,
+      0.7984973717256165
+    ],
+    "BL_min_max": [
+      0.04977536043687931,
+      0.8103488303326635
+    ]
+  }
+}
