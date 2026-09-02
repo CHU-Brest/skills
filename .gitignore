@@ -1,0 +1,9 @@
+# environnement Python local
+.venv/
+__pycache__/
+*.pyc
+
+# données patient : jamais versionnées
+studies/*/data/
+studies/*/analyse/output/*.csv
+studies/*/analyse/output/*.parquet

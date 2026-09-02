@@ -1,0 +1,18 @@
+{
+  "name": "chu-brest",
+  "owner": {
+    "name": "CHU de Brest"
+  },
+  "metadata": {
+    "description": "Skills du CHU de Brest pour Claude Code"
+  },
+  "plugins": [
+    {
+      "name": "chu-brest-eds-skills",
+      "source": "./",
+      "description": "Mener une étude scientifique sur l'entrepôt de données de santé : cadrage de la question, protocole, phénotypes, faisabilité, plan d'analyse, analyse Python, rapport IMRaD, relecture méthodologique.",
+      "version": "0.1.0",
+      "category": "research"
+    }
+  ]
+}
