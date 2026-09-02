@@ -7,3 +7,9 @@ __pycache__/
 studies/*/data/
 studies/*/analyse/output/*.csv
 studies/*/analyse/output/*.parquet
+
+# exemples : le jeu synthétique est régénéré par make_synthetic.py ; sorties tabulaires non versionnées
+examples/*/data/*.csv
+examples/*/data/*.parquet
+examples/*/analyse/output/*.csv
+examples/*/analyse/output/*.parquet
